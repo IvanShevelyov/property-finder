@@ -1,38 +1,33 @@
-# property-finder
+# PropertyFinder
 
-This template should help get you started developing with Vue 3 in Vite.
+Приложение для поиска и фильтрации объектов недвижимости.
 
-## Recommended IDE Setup
+## О проекте
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+PropertyFinder - это современное веб-приложение, разработанное на Vue 3, которое позволяет пользователям находить объекты недвижимости по различным параметрам: цене, типу, количеству комнат и местоположению.
 
-## Recommended Browser Setup
+**Основные возможности:**
+-Просмотр каталога объектов недвижимости
+-Расширенная система фильтрации и поиска
+-Добавление объектов в избранное
+-Полностью адаптивный дизайн
+-Галерея изображений для каждого объекта
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Установка и запуск
 
-## Customize configuration
+```bash
+# Клонирование репозитория
+git clone https://github.com/IvanShevelyov/property-finder.git
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+# Переход в папку проекта
+cd property-finder
 
-## Project Setup
-
-```sh
+# Установка зависимостей
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Запуск в режиме разработки
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# Сборка для продакшена
 npm run build
 ```
