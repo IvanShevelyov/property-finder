@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import AppHeader from '@/components/layout/AppHeader.vue'
-import AppFooter from '@/components/layout/AppFooter.vue'
+import AppHeader from '@/layout/AppHeader.vue'
+import AppFooter from '@/layout/AppFooter.vue'
 
 export default {
   name: 'App',
@@ -22,7 +22,6 @@ export default {
 </script>
 
 <style>
-/* CSS переменные (как в БЭМ) */
 :root {
   /* Цвета */
   --color-primary: #00b0a5;
@@ -59,7 +58,6 @@ export default {
   --space-xxl: 40px;
 }
 
-/* Сброс стилей */
 * {
   margin: 0;
   padding: 0;
@@ -89,7 +87,6 @@ body {
   flex: 1;
 }
 
-/* Глобальные утилитные классы */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -108,7 +105,6 @@ body {
   border: 0;
 }
 
-/* Общие стили для кнопок */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -164,7 +160,6 @@ body {
   font-size: 0.9rem;
 }
 
-/* Адаптивные изображения */
 .img-responsive {
   max-width: 100%;
   height: auto;

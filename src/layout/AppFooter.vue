@@ -2,7 +2,6 @@
   <footer class="footer">
     <div class="footer__container container">
       <div class="footer__content">
-        <!-- Информация о компании -->
         <div class="footer__section">
           <div class="footer__logo">
             <span class="footer__logo-icon">🏠</span>
@@ -14,7 +13,6 @@
           </p>
         </div>
 
-        <!-- Быстрые ссылки -->
         <div class="footer__section">
           <h4 class="footer__title">Навигация</h4>
           <ul class="footer__links">
@@ -30,7 +28,6 @@
           </ul>
         </div>
 
-        <!-- Контакты -->
         <div class="footer__section">
           <h4 class="footer__title">Контакты</h4>
           <div class="footer__contacts">
@@ -48,9 +45,7 @@
   </footer>
 </template>
 
-<script setup>
-// Логика для футера будет добавляться постепенно
-</script>
+<script setup></script>
 
 <style scoped>
 .footer {
@@ -148,12 +143,10 @@
   font-size: 1.3rem;
 }
 
-/* Модификаторы */
 .footer--compact .footer__content {
   padding: 20px 0;
 }
 
-/* Адаптивность */
 @media (max-width: 768px) {
   .footer__content {
     grid-template-columns: 1fr;

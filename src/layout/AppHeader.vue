@@ -2,7 +2,6 @@
   <header class="header">
     <div class="header__container container">
       <div class="header__content">
-        <!-- Логотип -->
         <div class="header__logo">
           <router-link to="/" class="header__logo-link">
             <span class="header__logo-icon">🏠</span>
@@ -10,14 +9,12 @@
           </router-link>
         </div>
 
-        <!-- Основная навигация -->
         <nav class="header__nav">
           <router-link to="/catalog" class="header__nav-link">Каталог</router-link>
           <router-link to="/favorites" class="header__nav-link">Избранное</router-link>
           <router-link to="/about" class="header__nav-link">О компании</router-link>
         </nav>
 
-        <!-- Дополнительные действия -->
         <div class="header__actions">
           <button class="header__phone-btn">📞 +7 (999) 123-45-67</button>
         </div>
@@ -26,9 +23,7 @@
   </header>
 </template>
 
-<script setup>
-// Логика для хедера будет добавляться постепенно
-</script>
+<script setup></script>
 
 <style scoped>
 .header {
@@ -117,13 +112,11 @@
   background: var(--color-primary-dark);
 }
 
-/* Модификаторы для разных состояний */
 .header--transparent {
   background: transparent;
   box-shadow: none;
 }
 
-/* Адаптивность */
 @media (max-width: 768px) {
   .header__content {
     flex-direction: column;
